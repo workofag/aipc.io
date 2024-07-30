@@ -2,7 +2,7 @@ document.getElementById("nvbar").innerHTML =
 '<nav class="navbar navbar-expand-sm">' +
 '  <div class="container-fluid">' +
 '    <a class="navbar-brand" href="home.html">' +
-'       <img src="../images/Logo_150x60.png" alt="">' +
+'       <img src="images/Logo_150x60.png" alt="">' +
 '    </a>' +
 '    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">' +
 '      <span class="navbar-toggler-icon"></span>' +
