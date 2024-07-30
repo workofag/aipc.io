@@ -1,0 +1,135 @@
+body {
+    background-color: #044389;
+    color: white;
+}
+
+
+main {
+    padding: 25px 25px;
+}
+
+.jtran {
+  color: white;
+}
+
+.text-justify {
+  text-align:justify !important;
+}
+
+.carousel-inner img{
+  height: auto;
+  margin: auto;
+}
+
+.img-cen {
+  margin: auto;
+}
+
+.bg-lightblue {
+  background-color: #d8efef;
+}
+
+.bg-beige {
+  background-color: beige;
+}
+
+.bg-plat {
+  background-color: #EAEAEA;
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#CP_txt{
+  width: 100%;
+  max-width: 300px;  /* Adjust this value based on the desired maximum width */
+  margin: 10px;     /* Space between text boxes */
+  padding: 20px;    /* Inner padding for text boxes */
+  border: 1px solid #ccc;  /* Border style */
+  background-color: #f9f9f9;  /* Background color */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);  /* Optional box shadow for visual appeal */
+}
+
+.h-35 {
+  height: 35%;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #ffffff;
+    z-index: 9999;
+    border: 0;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #2F4858 !important;
+    font-weight: bold;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #F4F3EE !important;
+    background-color: #2F4858 !important;
+  }
+  .navbar-brand a:hover {
+    color: #F4F3EE !important;
+    background-color: #2F4858 !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #F4F3EE !important;
+  }
+  
+  .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
+  @media (max-width: 600px) {
+    #CP_txt {
+        max-width: 100%;
+    }
+  }
