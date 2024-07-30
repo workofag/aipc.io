@@ -3,7 +3,7 @@ function slideit_1()
     {
         document.getElementById("Clientcarouselinner1").innerHTML =
         '<div class="carousel-item active">' +
-        '<img class="d-block w-75" src="./images/Clients/C'+tmp+'.png">'+
+        '<img class="d-block w-75" src="../images/Clients/C'+tmp+'.png">'+
         '</div>'
         if(tmp<6)
         tmp++;
@@ -29,7 +29,7 @@ var tmp2=13;
         {
             document.getElementById("Clientcarouselinner3").innerHTML =
             '<div class="carousel-item active">' +
-            '<img class="d-block w-75" src="./images/Clients/C'+tmp2+'.png">'+
+            '<img class="d-block w-75" src="images/Clients/C'+tmp2+'.png">'+
             '</div>'
             if(tmp2<18)
             tmp2++;
